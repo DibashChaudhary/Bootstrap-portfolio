@@ -2,3 +2,69 @@
     min-height: 60vh;
     background: linear-gradient(89.26deg, #93BED7 0.62%, rgba(169, 243, 167, 0.41) 100.48%);
 }
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    /* text-decoration: underline; */
+}
+
+.title span{
+    padding: 0 1rem;
+    border-bottom: 0.5rem solid rgb(150, 229, 150);
+}
+
+.icons{
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+
+.icons i{
+    font-size: 5rem;
+}
+.icons div{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* project section */
+.project{
+    background: #E7FFEC;
+}
+
+.glass{
+    background: rgba(0, 0, 0, 0.41);
+    border-radius: 10%;
+    box-shadow: -13px -10px 19px 0px;
+
+}
+
+/* .abt-me{
+    box-shadow:  15px -20px 19px 0px;
+} */
+
+.contact{
+    background: #ACE7CE;
+    border-radius: 10%;
+    box-shadow: -13px -10px 19px 0px;
+}
+
+/* .footer{
+    background: black;
+    color: white;
+} */
+/* .btn-home{
+    background: blu;
+    border-radius: 50%;
+} */
+.goup{
+    font-size: 2rem;
+    position: fixed;
+    bottom: 5rem;
+    right:5rem;
+}
